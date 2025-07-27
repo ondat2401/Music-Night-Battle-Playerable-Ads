@@ -1,0 +1,880 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94b2219a6ffb4745a093923c6bca33f, type: 3}
+  m_Name: MapConfig
+  m_EditorClassIdentifier: 
+  mapDatas:
+  - jsonData: {fileID: 4900000, guid: 2db9c571ba8ccd341870ed306975956e, type: 3}
+    mapName: Map 1
+    mapId: 0
+    mapDelay: 0.45
+    noteDelay: 0.45
+    mapSample: 1500
+    mapAudio: {fileID: 8300000, guid: a8d020f711ebb9647a34779a6bcce487, type: 3}
+    noteList:
+    - arrowType: 3
+      timeAppear: 1.9285696
+      noteID: 79
+      duration: 0.0044642687
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 2.142855
+      noteID: 77
+      duration: 0.004464388
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 2.3571405
+      noteID: 76
+      duration: 0.428571
+      isPlayer: 0
+      isLongNote: 1
+    - arrowType: 1
+      timeAppear: 2.7857115
+      noteID: 77
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 2.8928542
+      noteID: 78
+      duration: 0.004464388
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 2.999997
+      noteID: 77
+      duration: 0.004464388
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 3.1071398
+      noteID: 79
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 3.2142825
+      noteID: 76
+      duration: 0.004464388
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 3.428568
+      noteID: 78
+      duration: 0.004464388
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 3.6428535
+      noteID: 76
+      duration: 0.004464388
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 3.857139
+      noteID: 77
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 4.0714245
+      noteID: 78
+      duration: 0.42857122
+      isPlayer: 0
+      isLongNote: 1
+    - arrowType: 3
+      timeAppear: 4.4999957
+      noteID: 79
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 4.607138
+      noteID: 77
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 4.714281
+      noteID: 78
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 4.8214235
+      noteID: 77
+      duration: 0.0044646263
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 4.9285665
+      noteID: 76
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 5.142852
+      noteID: 79
+      duration: 0.0044646263
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 5.3571377
+      noteID: 78
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 5.571423
+      noteID: 77
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 5.7857084
+      noteID: 76
+      duration: 0.42857122
+      isPlayer: 0
+      isLongNote: 1
+    - arrowType: 1
+      timeAppear: 6.2142797
+      noteID: 77
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 6.321422
+      noteID: 78
+      duration: 0.0044646263
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 6.428565
+      noteID: 77
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 6.535708
+      noteID: 79
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 6.6428504
+      noteID: 76
+      duration: 0.0044646263
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 6.857136
+      noteID: 78
+      duration: 0.0044646263
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 7.0714216
+      noteID: 76
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 7.285707
+      noteID: 77
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 7.4999924
+      noteID: 76
+      duration: 0.0044646263
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 7.714278
+      noteID: 79
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 7.8214207
+      noteID: 77
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 7.9285636
+      noteID: 78
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 8.142849
+      noteID: 76
+      duration: 0.0044641495
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 8.249991
+      noteID: 79
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 8.357135
+      noteID: 77
+      duration: 0.2142849
+      isPlayer: 0
+      isLongNote: 1
+    - arrowType: 3
+      timeAppear: 8.785706
+      noteID: 75
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 8.999991
+      noteID: 73
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 9.214276
+      noteID: 72
+      duration: 0.42857075
+      isPlayer: 1
+      isLongNote: 1
+    - arrowType: 1
+      timeAppear: 9.642847
+      noteID: 73
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 9.74999
+      noteID: 74
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 9.857133
+      noteID: 73
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 9.964275
+      noteID: 75
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 10.071419
+      noteID: 72
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 10.285704
+      noteID: 74
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 10.4999895
+      noteID: 72
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 10.714275
+      noteID: 73
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 10.92856
+      noteID: 74
+      duration: 0.4285717
+      isPlayer: 1
+      isLongNote: 1
+    - arrowType: 3
+      timeAppear: 11.357132
+      noteID: 75
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 11.464274
+      noteID: 73
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 11.571417
+      noteID: 74
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 11.678559
+      noteID: 73
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 11.785703
+      noteID: 72
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 11.999988
+      noteID: 75
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 12.214273
+      noteID: 74
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 12.428559
+      noteID: 73
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 12.642844
+      noteID: 72
+      duration: 0.4285717
+      isPlayer: 1
+      isLongNote: 1
+    - arrowType: 1
+      timeAppear: 13.071416
+      noteID: 73
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 13.178558
+      noteID: 74
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 13.285701
+      noteID: 73
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 13.392844
+      noteID: 75
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 13.499987
+      noteID: 72
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 13.714272
+      noteID: 74
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 13.928557
+      noteID: 72
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 14.142843
+      noteID: 73
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 14.357128
+      noteID: 72
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 14.571414
+      noteID: 75
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 14.678556
+      noteID: 73
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 14.7857
+      noteID: 74
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 14.999985
+      noteID: 72
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 15.107128
+      noteID: 75
+      duration: 0.0044641495
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 15.214271
+      noteID: 73
+      duration: 0.21428585
+      isPlayer: 1
+      isLongNote: 1
+    - arrowType: 1
+      timeAppear: 15.642841
+      noteID: 77
+      duration: 0.6428566
+      isPlayer: 0
+      isLongNote: 1
+    - arrowType: 3
+      timeAppear: 16.285698
+      noteID: 79
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 16.392841
+      noteID: 77
+      duration: 0.004463196
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 16.499983
+      noteID: 76
+      duration: 0.3214283
+      isPlayer: 0
+      isLongNote: 1
+    - arrowType: 2
+      timeAppear: 16.821411
+      noteID: 78
+      duration: 0.2142868
+      isPlayer: 0
+      isLongNote: 1
+    - arrowType: 1
+      timeAppear: 17.14284
+      noteID: 77
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 17.357126
+      noteID: 75
+      duration: 0.004463196
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 17.571411
+      noteID: 72
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 17.785696
+      noteID: 73
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 17.999983
+      noteID: 74
+      duration: 0.004463196
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 18.214268
+      noteID: 72
+      duration: 0.4285717
+      isPlayer: 1
+      isLongNote: 1
+    - arrowType: 3
+      timeAppear: 18.64284
+      noteID: 75
+      duration: 0.4285698
+      isPlayer: 1
+      isLongNote: 1
+    - arrowType: 2
+      timeAppear: 19.07141
+      noteID: 78
+      duration: 0.6428566
+      isPlayer: 0
+      isLongNote: 1
+    - arrowType: 3
+      timeAppear: 19.714266
+      noteID: 79
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 19.82141
+      noteID: 76
+      duration: 0.004463196
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 19.92855
+      noteID: 77
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 20.142838
+      noteID: 77
+      duration: 0.004463196
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 20.249979
+      noteID: 78
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 20.571407
+      noteID: 77
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 20.785694
+      noteID: 72
+      duration: 0.004463196
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 20.785694
+      noteID: 76
+      duration: 0.004463196
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 20.999979
+      noteID: 73
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 20.999979
+      noteID: 77
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 21.214264
+      noteID: 75
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 21.214264
+      noteID: 79
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 21.42855
+      noteID: 74
+      duration: 0.004463196
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 21.42855
+      noteID: 78
+      duration: 0.004463196
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 21.642836
+      noteID: 75
+      duration: 0.4285717
+      isPlayer: 1
+      isLongNote: 1
+    - arrowType: 3
+      timeAppear: 21.642836
+      noteID: 79
+      duration: 0.4285717
+      isPlayer: 0
+      isLongNote: 1
+    - arrowType: 0
+      timeAppear: 22.071407
+      noteID: 72
+      duration: 0.4285698
+      isPlayer: 1
+      isLongNote: 1
+    - arrowType: 2
+      timeAppear: 22.499977
+      noteID: 74
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 22.714264
+      noteID: 75
+      duration: 0.004463196
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 22.928549
+      noteID: 72
+      duration: 0.004463196
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 23.142834
+      noteID: 75
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 23.357119
+      noteID: 73
+      duration: 0.4285717
+      isPlayer: 1
+      isLongNote: 1
+    - arrowType: 0
+      timeAppear: 23.78569
+      noteID: 72
+      duration: 0.4285717
+      isPlayer: 1
+      isLongNote: 1
+    - arrowType: 3
+      timeAppear: 24.214262
+      noteID: 75
+      duration: 0.004463196
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 24.428547
+      noteID: 73
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 24.428547
+      noteID: 77
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 24.642832
+      noteID: 74
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 24.642832
+      noteID: 78
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 24.857119
+      noteID: 73
+      duration: 0.004463196
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 24.857119
+      noteID: 77
+      duration: 0.004463196
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 25.071404
+      noteID: 72
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 25.071404
+      noteID: 76
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 25.285688
+      noteID: 75
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 25.285688
+      noteID: 79
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 25.499975
+      noteID: 73
+      duration: 0.004463196
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 25.499975
+      noteID: 77
+      duration: 0.004463196
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 25.71426
+      noteID: 74
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 25.71426
+      noteID: 78
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 26.142832
+      noteID: 75
+      duration: 0.004463196
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 26.142832
+      noteID: 79
+      duration: 0.004463196
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 26.357117
+      noteID: 74
+      duration: 0.004463196
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 26.357117
+      noteID: 78
+      duration: 0.004463196
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 26.571402
+      noteID: 72
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 26.571402
+      noteID: 76
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 26.785688
+      noteID: 73
+      duration: 0.004463196
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 26.785688
+      noteID: 77
+      duration: 0.004463196
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 26.999973
+      noteID: 75
+      duration: 0.004463196
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 3
+      timeAppear: 26.999973
+      noteID: 79
+      duration: 0.004463196
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 27.214258
+      noteID: 72
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 0
+      timeAppear: 27.214258
+      noteID: 76
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 27.428543
+      noteID: 73
+      duration: 0.004465103
+      isPlayer: 1
+      isLongNote: 0
+    - arrowType: 1
+      timeAppear: 27.428543
+      noteID: 77
+      duration: 0.004465103
+      isPlayer: 0
+      isLongNote: 0
+    - arrowType: 2
+      timeAppear: 27.64283
+      noteID: 74
+      duration: 0.4285698
+      isPlayer: 1
+      isLongNote: 1
+    - arrowType: 2
+      timeAppear: 27.64283
+      noteID: 78
+      duration: 0.4285698
+      isPlayer: 0
+      isLongNote: 1
+  arrowPrefab:
+    prefab: {fileID: 2832748169619057592, guid: fb4d61df9802fa446a0dca900b9053e1, type: 3}
+    arrowSprites:
+    - {fileID: 21300000, guid: b14d70f8b980dbe468cbb16aa1132736, type: 3}
+    - {fileID: 21300000, guid: a2737ccdd64c89e45b597dcb7e8032fa, type: 3}
+    - {fileID: 21300000, guid: 4e3747775bd315a499fbecb96a312d3e, type: 3}
+    - {fileID: 21300000, guid: 2669de615821bdf4f8c1afcb21177329, type: 3}
+    - {fileID: 21300000, guid: 094c7f8dff147184fb45c8fa5ea71fab, type: 3}
+    - {fileID: 21300000, guid: c7153fd9b92f3e247bcc22143f230ec7, type: 3}
+    - {fileID: 21300000, guid: 72f34e649549f4042a4477fcef395b3d, type: 3}
+    - {fileID: 21300000, guid: a7804febcc3beca4d81c11be5c73397d, type: 3}
+    arrowLongSprites:
+    - {fileID: 21300000, guid: 207129a60454996449e06936405af60c, type: 3}
+    - {fileID: 21300000, guid: 0e56fb1dcc4e7bb44881140d50259202, type: 3}
+    - {fileID: 21300000, guid: 56535c2cee6a8e84da0d105946b4e10e, type: 3}
+    - {fileID: 21300000, guid: ce5b20a588aa30a419ae50f097cf0bc1, type: 3}
+    - {fileID: 21300000, guid: 8d73fd5492cf3ea40b1052920c4419c4, type: 3}
+  comboPrefab:
+    prefab: {fileID: 6594284065789859126, guid: 9078a5fb0dced8d4a892f4aa3023318e, type: 3}
+    comboSprites:
+    - {fileID: 21300000, guid: d6e72b5ea65dc984896eb72b66ae3612, type: 3}
+    - {fileID: 21300000, guid: b5b32e89f0c3c854193ad5d453c1996a, type: 3}
+    - {fileID: 21300000, guid: 5a4bee1742c1bc7478119f720b516b88, type: 3}
