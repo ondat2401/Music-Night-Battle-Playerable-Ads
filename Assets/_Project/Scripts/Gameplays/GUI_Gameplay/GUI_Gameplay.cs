@@ -59,6 +59,7 @@ public class GUI_Gameplay : MonoBehaviour
     public void Button_Replay()
     {
         Button_Start();
+        PoolManager.Instance.arrowTransform.gameObject.SetActive(true);
         RestartBtn.SetActive(false );
     }
     public void AddScore()

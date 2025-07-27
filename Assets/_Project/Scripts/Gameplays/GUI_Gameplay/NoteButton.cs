@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 public class NoteButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     public RectTransform rectTransform;
-    [SerializeField] GameObject effect;
+    public GameObject effect;
     [SerializeField] NoteType type;
     [SerializeField] Animator anim;
     public bool isHolding;

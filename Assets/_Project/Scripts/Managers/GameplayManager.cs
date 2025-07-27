@@ -39,6 +39,10 @@ public class GameplayManager : SingletonModule<GameplayManager>
     {
         missedNote = 0;
         initGameCoroutine = StartCoroutine(InitGame());
+        foreach(var btn in buttons)
+        {
+            btn.effect.SetActive(false);
+        }
         endGameTween = DOVirtual.DelayedCall(30, () =>
         {
             EndGame();
@@ -51,6 +55,7 @@ public class GameplayManager : SingletonModule<GameplayManager>
         {
             AudioManager.Instance.StopBGM();
         }
+        PoolManager.Instance.arrowTransform.gameObject.SetActive(false);
         endGameTween.Kill();
         StopCoroutine(initGameCoroutine);
         for (int i = arrowList.Count - 1; i >= 0; i--)
