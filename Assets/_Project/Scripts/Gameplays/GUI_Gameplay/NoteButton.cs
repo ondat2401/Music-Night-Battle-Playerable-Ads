@@ -9,8 +9,6 @@ public class NoteButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     [SerializeField] GameObject effect;
     [SerializeField] NoteType type;
     [SerializeField] Animator anim;
-    [SerializeField] List<ParticleSystem> particles = new List<ParticleSystem>();
-
     public bool isHolding;
 
 
@@ -28,11 +26,6 @@ public class NoteButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         effect.SetActive(true);
         anim.SetTrigger("Hold");
 
-        foreach (var particle in particles)
-        {
-            particle.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
-            particle.Play();
-        }
         StartCoroutine(GameplayManager.Instance.CheckArrowWithinTime(type, this, 0.5f));
     }
     public void OnKeyUp()

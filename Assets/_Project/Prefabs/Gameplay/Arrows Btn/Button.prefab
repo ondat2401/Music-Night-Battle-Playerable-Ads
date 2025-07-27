@@ -154,7 +154,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 821740403298194209}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ec335c4943a46f418891635f7dad337, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c5876a2aba75474d97cd07ede900067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rectTransform: {fileID: 7536499468082028705}
@@ -162,8 +162,8 @@ MonoBehaviour:
   type: 0
   anim: {fileID: 1063486973716569237}
   particles:
-  - {fileID: 6692815583175825623}
   - {fileID: 5702141143873776688}
+  - {fileID: 6692815583175825623}
   isHolding: 0
 --- !u!114 &2943738111668704531
 MonoBehaviour:
